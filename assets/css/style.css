@@ -10,9 +10,9 @@
 html {
     font-size: 10px;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
-html,
 body {
     height: 100%;
 }
@@ -22,7 +22,8 @@ body {
     src: url("../fonts/roboto/Roboto-Regular.ttf");
 }
 
-p {
+h1,
+h2 {
     font-family: "roboto";
 }
 
@@ -37,12 +38,11 @@ p {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    padding-bottom: 25em;
 }
 
 #bg h1 {
-    padding-top: 5em;
+    padding-top: 45vh;
     font-size: 5.8rem;
     color: white;
 }
@@ -117,12 +117,9 @@ p {
 #gallerie {
 
     margin: 0 auto;
-    /* margin-bottom: 15px; */
     display: flex;
     flex-wrap: wrap;
-    /* flex-wrap: wrap; */
     justify-content: center;
-    /* align-items: center; */
     width: 80%;
 }
 
@@ -179,12 +176,10 @@ p {
 #footer {
     position: fixed;
     bottom: 0;
-    right: 0;
     width: 100%;
     font-size: 1em;
     text-align: right;
     padding: 3px;
-    /* width: 100vw; */
     font-family: "roboto";
     background-color: #f7f7f7;
 }
